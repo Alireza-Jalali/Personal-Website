@@ -1,0 +1,44 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Shabnam";
+  src: url(../content/font/Shabnam.ttf) format("truetype");
+}
+
+body {
+  font-family: Shabnam;
+  background-color: #000;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+}
+
+header img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+header h1,
+h2 {
+  text-align: center;
+}
+
+main p{
+  text-align: center;
+  margin-top: 100px;
+}
