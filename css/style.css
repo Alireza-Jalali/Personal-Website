@@ -1,12 +1,8 @@
 @import "reset.css";
-
-@font-face {
-  font-family: "Shabnam";
-  src: url(../content/font/Shabnam.ttf) format("truetype");
-}
+@import "font.css";
 
 body {
-  font-family: Shabnam;
+  font-family: 'Shabnam';
   background-color: #000;
   color: #fff;
 }
