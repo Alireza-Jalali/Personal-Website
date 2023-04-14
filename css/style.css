@@ -3,38 +3,88 @@
 
 body {
   font-family: 'Ubuntu';
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   color: #fff;
+}
+
+/* general styles */
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* navigation styles */
+
+nav{
+  background-color: rgb(31, 33, 35);
+  line-height: 40px;
 }
 
 nav ul {
   list-style: none;
+  padding: 0 0 0 0;
+  text-align: center;
 }
 
 nav ul li {
   display: inline;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  padding-left: 10px;
+nav ul li a{
+  padding: 10px;
+  transition: all 0.5s;
 }
+
+nav ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/* header styles */
 
 header img {
   width: 50%;
   display: block;
   margin: auto;
   border-radius: 50%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-header h1,
-h2 {
+header div.main-title{
   text-align: center;
+  margin-top: 30px;
 }
 
-main p{
+header div.main-title span{
+  color: rgb(90, 158, 233);
+  font-weight: lighter;
+}
+
+header p.main-title{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
+  font-size: 1.7em;
+}
+
+header p.main-title strong, span{
+  color: rgb(133, 206, 250);
+}
+
+header div{
+  text-align: center;
+  margin-top: 50px;
+}
+
+header div a{
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+}
+
+/* footer styles */
+
+footer p{
+  text-align: center;
+  margin-top: 50px;
 }
