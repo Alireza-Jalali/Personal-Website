@@ -2,21 +2,21 @@
 @import "font.css";
 
 body {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   background-color: rgb(0, 0, 0);
   color: #fff;
 }
 
 /* general styles */
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
 
 /* navigation styles */
 
-nav{
+nav {
   background-color: rgb(31, 33, 35);
   line-height: 40px;
 }
@@ -31,12 +31,12 @@ nav ul li {
   display: inline;
 }
 
-nav ul li a{
+nav ul li a {
   padding: 10px;
   transition: all 0.5s;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   background-color: #fff;
   color: #000;
 }
@@ -51,32 +51,33 @@ header img {
   margin-top: 50px;
 }
 
-header div.main-title{
+header div.main-title {
   text-align: center;
   margin-top: 30px;
 }
 
-header div.main-title span{
+header div.main-title span {
   color: rgb(90, 158, 233);
   font-weight: lighter;
 }
 
-header p.main-title{
+header p.main-title {
   text-align: center;
   margin-top: 20px;
   font-size: 1.7em;
 }
 
-header p.main-title strong, span{
+header p.main-title strong,
+span {
   color: rgb(133, 206, 250);
 }
 
-header div{
+header div {
   text-align: center;
   margin-top: 50px;
 }
 
-header div a{
+header div a {
   background-color: #fff;
   color: #000;
   padding: 5px;
@@ -84,7 +85,7 @@ header div a{
 
 /* footer styles */
 
-footer p{
+footer p {
   text-align: center;
   margin-top: 50px;
 }
