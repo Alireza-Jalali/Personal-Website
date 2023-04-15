@@ -89,3 +89,8 @@ footer p {
   text-align: center;
   margin-top: 150px;
 }
+
+footer progress{
+  display: block;
+  margin: auto;
+}
