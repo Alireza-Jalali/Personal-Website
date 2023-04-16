@@ -37,6 +37,17 @@ header ion-icon {
   top: 10px;
 }
 
+<<<<<<< HEAD
+=======
+header picture img{
+  width: 40%;
+  position: relative;
+  top: 7px;
+}
+
+/* navigation styles */
+
+>>>>>>> f858ddc7e266aa10fc90d730e1e9956458c79042
 /* main-content styles */
 
 section#content main img {
