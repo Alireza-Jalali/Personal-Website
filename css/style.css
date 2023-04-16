@@ -39,6 +39,12 @@ header nav ion-icon {
   top: 10px;
 }
 
+header picture img{
+  width: 6%;
+  position: relative;
+  top: 13px;
+}
+
 /* navigation styles */
 
 /* main-content styles */
