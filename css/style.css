@@ -40,9 +40,9 @@ header nav ion-icon {
 }
 
 header picture img{
-  width: 6%;
+  width: 40%;
   position: relative;
-  top: 13px;
+  top: 7px;
 }
 
 /* navigation styles */
