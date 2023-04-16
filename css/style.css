@@ -16,38 +16,8 @@ a {
 
 /* header styles */
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 20px 0 20px;
-}
-
-header h1 {
-  font-size: 1.1em;
-  position: relative;
-  top: 5px;
-}
-
-header h1 span{
-  color: rgb(133, 206, 250);
-}
-
-header ion-icon {
-  position: relative;
-  top: 10px;
-}
-
-<<<<<<< HEAD
-=======
-header picture img{
-  width: 40%;
-  position: relative;
-  top: 7px;
-}
-
 /* navigation styles */
 
->>>>>>> f858ddc7e266aa10fc90d730e1e9956458c79042
 /* main-content styles */
 
 section#content main img {
