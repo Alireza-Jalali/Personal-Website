@@ -62,11 +62,6 @@ section#content main div.main-title {
   margin-top: 30px;
 }
 
-section#content main div.main-title span {
-  color: rgb(90, 158, 233);
-  font-weight: lighter;
-}
-
 section#content main p.main-title {
   text-align: center;
   margin-top: 20px;
