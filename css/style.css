@@ -28,7 +28,7 @@ section#content main img {
   margin-top: 50px;
 }
 
-section#content main div.main-title {
+section#content main p.main-title {
   text-align: center;
   margin-top: 30px;
 }
@@ -48,6 +48,29 @@ section#content main div {
   margin-top: 50px;
 }
 
+section#content main article{
+  margin-top: 200px;
+  text-align: center;
+}
+
+section#content main article h3{
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+section#content main article h4{
+  margin-top: 50px;
+}
+
+section#content main article p{
+  display: block;
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 27px;
+}
+
 /* footer styles */
 
 footer p {
@@ -59,6 +82,7 @@ footer progress {
   display: block;
   margin: auto;
   width: 200px;
+  margin-bottom: 100px;
 }
 
 ion-icon {
