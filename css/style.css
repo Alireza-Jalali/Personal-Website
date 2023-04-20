@@ -48,21 +48,21 @@ section#content main div {
   margin-top: 50px;
 }
 
-section#content main article{
+section#content main article {
   margin-top: 200px;
   text-align: center;
 }
 
-section#content main article h3{
+section#content main article h3 {
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-section#content main article h4{
+section#content main article h4 {
   margin-top: 50px;
 }
 
-section#content main article p{
+section#content main article p {
   display: block;
   margin: auto;
   width: 80%;
