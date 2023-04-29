@@ -1,8 +1,7 @@
 @import "reset.css";
-@import "font.css";
 
 body {
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu-Title';
   background-color: rgb(0, 0, 0);
   color: #fff;
 }
