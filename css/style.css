@@ -76,24 +76,56 @@ section#content main article p {
   line-height: 27px;
 }
 
-/* footer styles */
-
-footer p {
+section#content main p {
   text-align: center;
   margin-top: 150px;
 }
 
-footer progress {
+section#content main progress {
   display: block;
   margin: auto;
   width: 200px;
   margin-bottom: 100px;
 }
 
-footer a.top {
+section#content main a.top {
   display: flex;
   justify-content: center;
   position: relative;
   bottom: 25px;
   padding: 20px;
+}
+
+/* footer styles */
+
+footer{
+  background-color: #f8f9fa;
+  width: 100%;
+  height: 100px;
+}
+
+footer ul{
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+footer ul li{
+  display: inline;
+}
+
+footer ul li a{
+  color: black;
+  transition: 0.25s ease;
+  margin: 20px;
+}
+
+footer ul li a:hover{
+  color: rgb(100, 100, 100);
+}
+
+footer ul li a ion-icon{
+  position: relative;
+  right: 16px;
 }
