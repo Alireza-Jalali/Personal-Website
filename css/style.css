@@ -59,21 +59,23 @@ section#content main article {
 }
 
 section#content main article h3 {
+  font-size: 25px;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
 section#content main article h4 {
+  font-size: 20px;
   margin-top: 50px;
 }
 
 section#content main article p {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 90%;
   text-align: justify;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 30px;
 }
 
 section#content main p {
