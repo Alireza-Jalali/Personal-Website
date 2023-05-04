@@ -67,6 +67,7 @@ section#content main article h3 {
 section#content main article h4 {
   font-size: 20px;
   margin-top: 50px;
+  font-weight: bold;
 }
 
 section#content main article p {
@@ -74,13 +75,14 @@ section#content main article p {
   margin: auto;
   width: 90%;
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 
 section#content main p {
   text-align: center;
   margin-top: 150px;
+  font-size: 20px;
 }
 
 section#content main progress {
