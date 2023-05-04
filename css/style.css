@@ -89,7 +89,12 @@ section#content main progress {
   display: block;
   margin: auto;
   width: 200px;
-  margin-bottom: 100px;
+  height: 30px;
+}
+
+section#content main p.percent{
+  position: relative;
+  bottom: 135px;
 }
 
 section#content main a.top {
