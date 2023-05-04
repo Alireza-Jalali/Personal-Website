@@ -59,7 +59,7 @@ section#content main article {
 }
 
 section#content main article h3 {
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -75,7 +75,7 @@ section#content main article p {
   margin: auto;
   width: 90%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 }
 
