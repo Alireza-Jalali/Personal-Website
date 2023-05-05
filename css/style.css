@@ -130,11 +130,31 @@ footer ul li a{
   margin: 20px;
 }
 
-footer ul li a:hover{
-  color: rgb(100, 100, 100);
+footer ul li a.instagram-icon:hover{
+  
+}
+
+footer ul li a.linkedin-icon:hover{
+  color: #0A66C2;
+}
+
+footer ul li a.github-icon:hover{
+  color: #000000;
+}
+
+footer ul li a.twitter-icon:hover{
+  color: #1D9BF0;
 }
 
 footer ul li a ion-icon{
   position: relative;
   right: 16px;
+}
+
+
+footer ul li a ion-icon.instagram-icon:hover{
+  color: white;
+  border-radius: 10px;
+  transition: 0.25s ease;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
