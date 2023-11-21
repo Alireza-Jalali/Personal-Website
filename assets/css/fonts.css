@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "Guminert-Light";
+    src: url("../fonts/Guminert-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: "Guminert-Medium";
+    src: url("../fonts/Guminert-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Guminert-Bold";
+    src: url("../fonts/Guminert-Extra-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: bolder;
+}

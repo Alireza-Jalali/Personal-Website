@@ -1,0 +1,67 @@
+.navbar-section{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.navbar-section > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-section img{
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: -19px;
+}
+
+.navbar-section h1{
+    font-size: 18px;
+    display: inline;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.navbar-section nav{
+    word-spacing: 10px;
+}
+
+.navbar-section nav a{
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.25s ease;
+}
+
+.navbar-section nav a:hover{
+    color: var(--hover);
+}
+
+.navbar-section nav a.menu-icon{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .navbar-section nav a:not(:last-child){
+        display: none;
+    }
+    .navbar-section nav a.menu-icon{
+        display: block;
+        margin-right: 12px;
+        padding: 0;
+    }
+    .navbar-section nav a.menu-icon ion-icon{
+        font-size: 28px;
+    }
+    .navbar-section .nav.responsive{
+        position: relative;
+    }
+    .navbar-section .nav.responsive a.menu-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .navbar-section .nav.responsive a{
+        float: none;
+        display: block;
+    }
+}

@@ -1,0 +1,48 @@
+.content-section .about h3{
+    color: var(--blue);
+    font-size: 1.7rem;
+}
+
+.content-section .about span{
+    font-size: 1.3rem;
+}
+
+.content-section .about p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.content-section .social{
+    margin: 100px 0;
+}
+
+.content-section .social ul{
+    display: flex;
+    padding: 0;
+}
+
+.content-section .social ul li a{
+    margin-right: 25px;
+}
+
+.content-section .social ul li a ion-icon{
+    color: var(--blue);
+    vertical-align: -6px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width:576px){
+    .content-section{
+        text-align: center;
+        display: inline-block;
+        margin-top: 220px!important;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    .content-section{
+        text-align: center;
+        display: inline-block;
+        margin-top: 220px!important;
+    }
+}

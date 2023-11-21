@@ -1,0 +1,123 @@
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px!important;
+    height: 93vh;
+}
+
+.header-section header h2{
+    font-size: 80px;
+    margin: 0;
+}
+
+.header-section header h2 strong{
+    font-family: "Guminert-Bold";
+    color: var(--blue);
+}
+
+.header-section header h2 span{
+    font-size: 70px;
+}
+
+.header-section header a{
+    font-family: "Guminert-Light";
+    font-size: 20px;
+    transition: all 0.25s ease;
+    display: inline-block;
+    margin: 25px 10px 0 0;
+}
+
+.header-section header a.primary-btn:hover{
+    background-color: #0b82aa;
+}
+
+.header-section header a.secondary-btn:hover{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.header-section img{
+    width: 35%;
+    border-radius: 50%;
+    filter: brightness(0.5);
+    box-shadow: 0 0 25px white;
+}
+
+@media only screen and (max-width:576px){
+    .header-section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px!important;
+        height: 50vh;
+    }
+    .header-section img{
+        width: 60%;
+        order: 1;
+    }
+    .header-section header{
+        margin-top: 75px;
+        order: 2;
+    }
+    .header-section header h2{
+        font-size: 40px;
+    }
+    .header-section header h2 span{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    .header-section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px!important;
+        height: 50vh;
+    }
+    .header-section img{
+        width: 50%;
+        order: 1;
+    }
+    .header-section header{
+        margin-top: 75px;
+        order: 2;
+    }
+    .header-section header h2{
+        font-size: 40px;
+    }
+    .header-section header h2 span{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .header-section{
+        display: flex;
+    }
+    .header-section img{
+        width: 40%;
+    }
+    .header-section header h2{
+        font-size: 50px;
+    }
+    .header-section header h2 span{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .header-section{
+        display: flex;
+    }
+    .header-section img{
+        width: 40%;
+    }
+    .header-section header h2{
+        font-size: 60px;
+    }
+    .header-section header h2 span{
+        font-size: 50px;
+    }
+}

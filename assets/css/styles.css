@@ -1,0 +1,45 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("grid.css");
+@import url("utility.css");
+@import url("_navbar.css");
+@import url("_header.css");
+@import url("_content.css");
+@import url("_footer.css");
+
+body{
+    font-family: "Guminert-Light";
+    background-color: var(--black);
+    background-image: url("../images/bg.png");
+    color: var(--white);
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --blue: #25b2e3;
+    --hover: #C8C8C8;
+}
+
+ion-icon{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
