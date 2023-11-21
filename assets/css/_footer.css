@@ -5,3 +5,12 @@
 .footer-section p{
     font-size: 0.9rem;
 }
+
+.footer-section p a{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.footer-section p a ion-icon{
+    font-size: 30px;
+}
