@@ -64,7 +64,10 @@
         font-size: 40px;
     }
     .header-section header h2 span{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .header-section header a.primary-btn,.header-section header a.secondary-btn{
+        padding: 4px 8px;
     }
 }
 
@@ -89,6 +92,9 @@
     }
     .header-section header h2 span{
         font-size: 35px;
+    }
+    .header-section header a.primary-btn,.header-section header a.secondary-btn{
+        padding: 5px 10px;
     }
 }
 
