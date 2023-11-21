@@ -12,7 +12,6 @@
 .navbar-section img{
     width: 50px;
     border-radius: 50%;
-    vertical-align: -19px;
 }
 
 .navbar-section h1{
@@ -63,5 +62,16 @@
     .navbar-section .nav.responsive a{
         float: none;
         display: block;
+    }
+    .navbar-section img{
+        vertical-align: -26px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .navbar-section img{
+        vertical-align: -18px;
+        margin-bottom: 5px;
     }
 }
