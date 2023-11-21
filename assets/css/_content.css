@@ -22,7 +22,7 @@
 }
 
 .content-section .social ul li a{
-    margin-right: 25px;
+    margin: 0 10px;
 }
 
 .content-section .social ul li a ion-icon{
@@ -37,6 +37,10 @@
         display: inline-block;
         margin-top: 220px!important;
     }
+    .content-section .social{
+    display: flex;
+    justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px){
@@ -44,5 +48,16 @@
         text-align: center;
         display: inline-block;
         margin-top: 220px!important;
+    }
+    .content-section .social{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .content-section .social ul li a{
+        margin-left: 0;
+        margin-right: 20px;
     }
 }
