@@ -3,14 +3,24 @@
 }
 
 .footer-section p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .footer-section p a{
     display: inline-block;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .footer-section p a ion-icon{
     font-size: 30px;
+}
+
+.footer-section progress{
+    width: 50%;
+    height: 25px;
+    margin-top: 80px;
+}
+
+.footer-section p.develop{
+    font-size: 18px;
 }
