@@ -7,7 +7,7 @@
 }
 
 .header-section header h2{
-    font-size: 80px;
+    font-size: 4.5vw;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .header-section header h2 span{
-    font-size: 70px;
+    font-size: 3.5vw;
 }
 
 .header-section header a{
@@ -60,12 +60,6 @@
         margin-top: 75px;
         order: 2;
     }
-    .header-section header h2{
-        font-size: 40px;
-    }
-    .header-section header h2 span{
-        font-size: 30px;
-    }
     .header-section header a.primary-btn,.header-section header a.secondary-btn{
         padding: 4px 8px;
     }
@@ -87,12 +81,6 @@
         margin-top: 75px;
         order: 2;
     }
-    .header-section header h2{
-        font-size: 40px;
-    }
-    .header-section header h2 span{
-        font-size: 35px;
-    }
     .header-section header a.primary-btn,.header-section header a.secondary-btn{
         padding: 5px 10px;
     }
@@ -105,12 +93,6 @@
     .header-section img{
         width: 40%;
     }
-    .header-section header h2{
-        font-size: 50px;
-    }
-    .header-section header h2 span{
-        font-size: 40px;
-    }
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
@@ -119,11 +101,5 @@
     }
     .header-section img{
         width: 40%;
-    }
-    .header-section header h2{
-        font-size: 60px;
-    }
-    .header-section header h2 span{
-        font-size: 50px;
     }
 }
