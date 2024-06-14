@@ -52,6 +52,13 @@
         margin-top: 100px!important;
         height: 50vh;
     }
+    .header-section header h2{
+        font-size: 3rem;
+    }
+
+    .header-section header h2 span{
+        font-size: 2rem;
+    }
     .header-section img{
         width: 60%;
         order: 1;
