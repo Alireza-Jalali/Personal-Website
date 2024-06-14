@@ -43,9 +43,6 @@
         display: inline-block;
         margin-top: 220px!important;
     }
-    .content-section .about{
-        text-align: justify;
-    }
     .content-section .social{
         display: flex;
         justify-content: space-around;
